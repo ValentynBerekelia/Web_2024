@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("photo/s1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+
+.container{
+    background-color: #32452c;
+    width: 900px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+}
+.image-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.imagine{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 90px;
+    border: 3px solid antiquewhite;
+}
+
+.text1{
+    font-size: 30px;
+    color: white;
+}
+.text2{
+    font-size: 50px;
+    color: white;
+    font-family:"MV Boli", serif;
+}
+.button{
+    width: 999px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+}
+button{
+    color: #070000;
+    background-color: #40ac8f;
+    border:none;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #ffffff;
+    transition: 0.7s;
+}
